@@ -8,6 +8,9 @@ module.exports = {
     root: __dirname,
     alias: {
       //Example: 'public/components/Example.jsx'
+      Progress: 'app/components/Progress.jsx',
+      ProgressBar: 'app/components/ProgressBar.jsx',
+      styles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
   },

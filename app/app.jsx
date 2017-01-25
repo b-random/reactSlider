@@ -1,9 +1,12 @@
 //see example_app.js for comment notation
 {/*jsx comments*/}
-var React = require('react');
-var ReactDOM = require('react-dom');
+
+let React = require('react');
+let ReactDOM = require('react-dom');
+let Progress = require('Progress');
+require('style!css!sass!styles');
 
 ReactDOM.render(
-  <h1>Boilerplate App</h1>,
+  <Progress/>,
   document.getElementById('app')
 );
